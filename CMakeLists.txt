@@ -22,6 +22,8 @@ add_library(
     src/set.c
     src/chtbl.c
     src/bitree.c
+    src/bistree.c
+    src/heap.c
 )
 
 #Chapitre 2 : Manipulation de pointeur
@@ -59,15 +61,3 @@ add_dependencies(main_events calgo)
 add_executable(main_set examples/main_set.c)
 target_link_libraries(main_set calgo)
 add_dependencies(main_set calgo)
-
-#Chapitre 8 :
-## Tables de hachages chainees
-add_executable(main_chtbl examples/main_chtbl.c)
-target_link_libraries(main_chtbl calgo)
-add_dependencies(main_chtbl calgo)
-
-#Chapitre 9 : 
-## Arbres binaires
-add_executable(main_bitree examples/main_bitree.c)
-target_link_libraries( main_bitree calgo)
-add_dependencies( main_bitree calgo)

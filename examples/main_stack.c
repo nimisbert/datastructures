@@ -7,7 +7,7 @@
 #include <stdint.h>
 #include "stack.h"
 
-int8_t stack_uint8_push( Stack *pile, uint8_t  number);
+int8_t stack_uint8_push( Stack *pile, uint8_t number);
 uint8_t stack_uint8_pop( Stack *pile);
 
 void main(void)
