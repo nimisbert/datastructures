@@ -61,3 +61,9 @@ add_dependencies(main_events calgo)
 add_executable(main_set examples/main_set.c)
 target_link_libraries(main_set calgo)
 add_dependencies(main_set calgo)
+
+#Chapitre 10:
+## Heap & Priority Queue
+add_executable(main_tri_postal examples/main_tri_postal.c)
+target_link_libraries(main_tri_postal calgo)
+add_dependencies(main_tri_postal calgo)
