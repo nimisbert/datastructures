@@ -24,6 +24,7 @@ add_library(
     src/bitree.c
     src/bistree.c
     src/heap.c
+    src/graph.c
 )
 
 #Chapitre 2 : Manipulation de pointeur
@@ -67,3 +68,10 @@ add_dependencies(main_set calgo)
 add_executable(main_tri_postal examples/main_tri_postal.c)
 target_link_libraries(main_tri_postal calgo)
 add_dependencies(main_tri_postal calgo)
+
+#Chapitre 11:
+## Graph
+### BFS example 
+add_executable(main_net_hops examples/main_net_hops.c)
+target_link_libraries(main_net_hops calgo)
+add_dependencies(main_net_hops calgo)
