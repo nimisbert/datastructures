@@ -75,3 +75,7 @@ add_dependencies(main_tri_postal calgo)
 add_executable(main_net_hops examples/main_net_hops.c)
 target_link_libraries(main_net_hops calgo)
 add_dependencies(main_net_hops calgo)
+### DFS example 
+add_executable(main_tri_topo examples/main_tri_topo.c)
+target_link_libraries(main_tri_topo calgo)
+add_dependencies(main_tri_topo calgo)
