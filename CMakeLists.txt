@@ -25,6 +25,8 @@ add_library(
     src/bistree.c
     src/heap.c
     src/graph.c
+    src/issort.c
+    src/qksort.c
 )
 
 #Chapitre 2 : Manipulation de pointeur
